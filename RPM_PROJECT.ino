@@ -1,6 +1,7 @@
 /*measure the flywheel speed of a spark-ignition engine 
- *by measuring pulses per unit time in secondary coil of the step up transformer
- *(added shift indicator) 
+ *by measuring pulses per unit time in secondary coil of the step up transformer (also added shift indicator) 
+ *refer to the diagrams for connections.
+ *Change some paramters according the vehicle's engine specs.
 */
 
 #include <LiquidCrystal.h>
