@@ -16,10 +16,10 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);                                      
 
 #define SIGNAL_PIN 6         //////////Pin to capture Signals from ignition coil////////////
 
-volatile int signal_count=0,previous_boxes=0,boxes=0,i,flag=0;
-volatile bool previous_signal,current_signal; 
-volatile int old_rate=0,new_rate=0;
-volatile long int t2=millis(),t1=1;
+int signal_count=0,previous_boxes=0,boxes=0,i,flag=0;
+bool previous_signal,current_signal; 
+int old_rate=0,new_rate=0;
+long int t2=millis(),t1=1;
 int del=5;
 char box=char(255);
 
